@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!--
 Eclipse Java formatter.
 Copyright (C) 2015 Fabio Pirola <fabio@pirola.org>
@@ -15,7 +16,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <profiles version="12">
 <profile kind="CodeFormatterProfile" name="Java and Google Conventions - pirola.org" version="12">
 <setting id="org.eclipse.jdt.core.formatter.comment.insert_new_line_before_root_tags" value="do not insert"/>
