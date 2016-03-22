@@ -1,5 +1,5 @@
 # java-formatter-eclipse-mars
-Java formatter for eclipse mars (version 4.5).
+Java formatter for eclipse mars (version 4.5). This formatter is also tested for eclipse Juno (version 3.8.1) and could be imported into IntelliJ IDEA.
 
 In short the Java formatter:
 
@@ -12,6 +12,11 @@ In short the Java formatter:
 [Java](http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html "Java convention")
 and [Google](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html "Google convention") conventions
 + pass verify of [checkstyle](http://checkstyle.sourceforge.net/ "Checkstyle site")
++ possible to turn off/on Java formatter with the following strings:
+  + //CHECKSTYLE:OFF
+  + //CHECKSTYLE:ON
+
+In "test-project" directory you can find a test project in order to verify the Java formatter.
 
 ---
 ## Instructions:
@@ -29,7 +34,7 @@ and [Google](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html "
 
 7. **Click** and "OK"
 
-###**That's all!!!**
+### **That's all!!!**
 
 You can format your code in different ways:
 
@@ -41,4 +46,4 @@ You can format your code in different ways:
 
   2. **Format** the code - Shortcut: _Right Ctrl + Right Shift + F_
 
-###**_Happy coding_ ;)**
+### **_Happy coding_ ;)**
